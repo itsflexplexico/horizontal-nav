@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  background-color: #dbd6cf;
+  font-family: Bevan, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -7,21 +10,50 @@ html {
 }
 
 body {
-  line-height: 1.5;
   margin: 0;
 }
 
 header {
   display: block;
-  background-color: #79756f;
-  padding: .6em;
-  border-color: #dbd6cf;
+  padding: .75em .5em;
   margin: 0;
+  background-color: #79756f;
+  font-family: Bevan, sans-serif;
+  color: #fff;
+  border: 2px solid;
+  border-color: #595652;
+  border-radius: 2px;
+  text-align: center;
 }
 
-nav li {
+h1 {
+  margin: 0;
+  text-align: center;
+  font-family: Bevan, sans-serif;
+}
+
+li {
   display: inline-block;
+  padding: .5em;
   background-color: #713837;
-  padding: .5em .75em;
-  margin: .3em;
+  font-family: sans-serif;
+  color: #fff;
+  border-radius: 2px;
+  list-style-type: lower-latin;
+  margin: 2px;
+  text-align: center;
+}
+
+li:hover {
+  background-color: #f33;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  margin: 0;
+  text-align: center;
 }
