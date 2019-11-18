@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font-family: Bevan, sans-serif;
+  font-family: Bevan, serif;
   line-height: 1.5;
 }
 
@@ -29,12 +29,11 @@ header {
 h1 {
   margin: 0;
   text-align: center;
-  font-family: Bevan, sans-serif;
+  font-family: Bevan, serif;
 }
 
 li {
   display: inline-block;
-  padding: .5em;
   background-color: #713837;
   font-family: sans-serif;
   color: #fff;
@@ -44,13 +43,15 @@ li {
   text-align: center;
 }
 
-li:hover {
-  background-color: #f33;
-}
-
 a {
+  display: inline-block;
   text-decoration: none;
   color: #fff;
+  padding: .5em;
+}
+
+a:hover {
+  background-color: #f33;
 }
 
 ul {
